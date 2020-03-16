@@ -868,19 +868,19 @@ public class GammaTool extends javax.swing.JFrame {
     
     //Number of lines
     String numLines = outArray.get(0).get(6);
-    noOfLines.setText(numLines);
+    noOfLines2.setText(numLines);
     
     //Numer of Methods
     String numMethods = outArray.get(0).get(4);
-    noOfMethods.setText(numMethods);
+    noOfMethods2.setText(numMethods);
     
     //Overall Complexity
     String numComplexity = outArray.get(0).get(2);
-    cyclomaticComp.setText(numComplexity);
+    cyclomaticComp2.setText(numComplexity);
     
     //Number of Comments
     String numComments = outArray.get(0).get(8);
-    noOfComments.setText(numComments);
+    noOfComments2.setText(numComments);
     }//GEN-LAST:event_jButton4ActionPerformed
 
     /**
